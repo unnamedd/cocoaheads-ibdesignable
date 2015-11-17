@@ -17,6 +17,8 @@
 		672375591BFB8B3E003EF61A /* UIViewWithBorders.m in Sources */ = {isa = PBXBuildFile; fileRef = 672375571BFB8B3E003EF61A /* UIViewWithBorders.m */; };
 		6723755B1BFB8B69003EF61A /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723755A1BFB8B69003EF61A /* UIView+Custom.m */; };
 		6723755F1BFB8BCF003EF61A /* BorderedInfoBlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723755E1BFB8BCF003EF61A /* BorderedInfoBlockView.m */; };
+		67980F2B1BFBAACE0045FD9B /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67980F271BFBAACE0045FD9B /* GradientView.m */; };
+		67980F2C1BFBAACE0045FD9B /* CustomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67980F291BFBAACE0045FD9B /* CustomImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		6723755A1BFB8B69003EF61A /* UIView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
 		6723755D1BFB8BCF003EF61A /* BorderedInfoBlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderedInfoBlockView.h; sourceTree = "<group>"; };
 		6723755E1BFB8BCF003EF61A /* BorderedInfoBlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderedInfoBlockView.m; sourceTree = "<group>"; };
+		67980F271BFBAACE0045FD9B /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		67980F281BFBAACE0045FD9B /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		67980F291BFBAACE0045FD9B /* CustomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageView.m; sourceTree = "<group>"; };
+		67980F2A1BFBAACE0045FD9B /* CustomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 		6723755C1BFB8BC5003EF61A /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				67980F271BFBAACE0045FD9B /* GradientView.m */,
+				67980F281BFBAACE0045FD9B /* GradientView.h */,
+				67980F291BFBAACE0045FD9B /* CustomImageView.m */,
+				67980F2A1BFBAACE0045FD9B /* CustomImageView.h */,
 				6723755D1BFB8BCF003EF61A /* BorderedInfoBlockView.h */,
 				6723755E1BFB8BCF003EF61A /* BorderedInfoBlockView.m */,
 			);
@@ -187,6 +197,8 @@
 			files = (
 				672375431BFB8151003EF61A /* ViewController.m in Sources */,
 				6723755F1BFB8BCF003EF61A /* BorderedInfoBlockView.m in Sources */,
+				67980F2C1BFBAACE0045FD9B /* CustomImageView.m in Sources */,
+				67980F2B1BFBAACE0045FD9B /* GradientView.m in Sources */,
 				6723755B1BFB8B69003EF61A /* UIView+Custom.m in Sources */,
 				672375591BFB8B3E003EF61A /* UIViewWithBorders.m in Sources */,
 				672375401BFB8151003EF61A /* AppDelegate.m in Sources */,
@@ -338,6 +350,7 @@
 				672375511BFB8151003EF61A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
