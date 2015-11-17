@@ -1,9 +1,9 @@
 //
 //  UIViewWithBorders.h
-//  pyggbank
+//  IBDesignables
 //
-//  Created by Thiago Holanda on 10/19/15.
-//  Copyright © 2015 Inventos Digitais. All rights reserved.
+//  Created by Thiago Holanda on 11/17/15.
+//  Copyright © 2015 CocoaHeads. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

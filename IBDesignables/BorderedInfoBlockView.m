@@ -1,9 +1,9 @@
 //
 //  BorderedInfoBlockView.m
-//  pyggbank
+//  IBDesignables
 //
-//  Created by Thiago Holanda on 10/3/15.
-//  Copyright © 2015 Inventos Digitais. All rights reserved.
+//  Created by Thiago Holanda on 11/17/15.
+//  Copyright © 2015 CocoaHeads. All rights reserved.
 //
 
 #import "BorderedInfoBlockView.h"
