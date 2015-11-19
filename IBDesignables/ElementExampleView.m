@@ -8,14 +8,53 @@
 
 #import "ElementExampleView.h"
 
+@interface ElementExampleView() {
+    dispatch_once_t onceTokenViewLiveRendering;
+}
+
+@end
+
 @implementation ElementExampleView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    
+    if (self) {
+        [self setup];
+    }
+    
+    return self;
 }
-*/
 
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    
+    if (self) {
+        [self setup];
+    }
+    
+    return self;
+}
+
+- (void)setup {
+    
+}
+
+- (void)drawRect:(CGRect)rect {
+    [super drawRect:rect];
+    
+#ifndef TARGET_INTERFACE_BUILDER
+    [self prepareForInterfaceBuilder];
+#endif
+}
+
+- (void)prepareForInterfaceBuilder {
+    [self viewLiveRendering];
+}
+
+- (void)viewLiveRendering {
+    dispatch_once(&onceTokenViewLiveRendering, ^{
+        
+    });
+}
 @end

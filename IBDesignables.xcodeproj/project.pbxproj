@@ -19,6 +19,9 @@
 		6723755F1BFB8BCF003EF61A /* BorderedInfoBlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6723755E1BFB8BCF003EF61A /* BorderedInfoBlockView.m */; };
 		67980F2B1BFBAACE0045FD9B /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67980F271BFBAACE0045FD9B /* GradientView.m */; };
 		67980F2C1BFBAACE0045FD9B /* CustomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67980F291BFBAACE0045FD9B /* CustomImageView.m */; };
+		8957E6831BFBB028002577AC /* ConclusionPercentageBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957E6801BFBB028002577AC /* ConclusionPercentageBarView.m */; };
+		8957E6841BFBB028002577AC /* TransactionsPlaceholderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957E6821BFBB028002577AC /* TransactionsPlaceholderLabel.m */; };
+		89C4A0C11BFBCB830052182B /* ElementExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4A0C01BFBCB830052182B /* ElementExampleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,12 @@
 		67980F281BFBAACE0045FD9B /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
 		67980F291BFBAACE0045FD9B /* CustomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageView.m; sourceTree = "<group>"; };
 		67980F2A1BFBAACE0045FD9B /* CustomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageView.h; sourceTree = "<group>"; };
+		8957E67F1BFBB028002577AC /* ConclusionPercentageBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConclusionPercentageBarView.h; sourceTree = "<group>"; };
+		8957E6801BFBB028002577AC /* ConclusionPercentageBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConclusionPercentageBarView.m; sourceTree = "<group>"; };
+		8957E6811BFBB028002577AC /* TransactionsPlaceholderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsPlaceholderLabel.h; sourceTree = "<group>"; };
+		8957E6821BFBB028002577AC /* TransactionsPlaceholderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsPlaceholderLabel.m; sourceTree = "<group>"; };
+		89C4A0BF1BFBCB830052182B /* ElementExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementExampleView.h; sourceTree = "<group>"; };
+		89C4A0C01BFBCB830052182B /* ElementExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementExampleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,12 +124,18 @@
 		6723755C1BFB8BC5003EF61A /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				8957E67F1BFBB028002577AC /* ConclusionPercentageBarView.h */,
+				8957E6801BFBB028002577AC /* ConclusionPercentageBarView.m */,
+				8957E6811BFBB028002577AC /* TransactionsPlaceholderLabel.h */,
+				8957E6821BFBB028002577AC /* TransactionsPlaceholderLabel.m */,
 				67980F271BFBAACE0045FD9B /* GradientView.m */,
 				67980F281BFBAACE0045FD9B /* GradientView.h */,
 				67980F291BFBAACE0045FD9B /* CustomImageView.m */,
 				67980F2A1BFBAACE0045FD9B /* CustomImageView.h */,
 				6723755D1BFB8BCF003EF61A /* BorderedInfoBlockView.h */,
 				6723755E1BFB8BCF003EF61A /* BorderedInfoBlockView.m */,
+				89C4A0BF1BFBCB830052182B /* ElementExampleView.h */,
+				89C4A0C01BFBCB830052182B /* ElementExampleView.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -195,9 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C4A0C11BFBCB830052182B /* ElementExampleView.m in Sources */,
 				672375431BFB8151003EF61A /* ViewController.m in Sources */,
+				8957E6841BFBB028002577AC /* TransactionsPlaceholderLabel.m in Sources */,
 				6723755F1BFB8BCF003EF61A /* BorderedInfoBlockView.m in Sources */,
 				67980F2C1BFBAACE0045FD9B /* CustomImageView.m in Sources */,
+				8957E6831BFBB028002577AC /* ConclusionPercentageBarView.m in Sources */,
 				67980F2B1BFBAACE0045FD9B /* GradientView.m in Sources */,
 				6723755B1BFB8B69003EF61A /* UIView+Custom.m in Sources */,
 				672375591BFB8B3E003EF61A /* UIViewWithBorders.m in Sources */,

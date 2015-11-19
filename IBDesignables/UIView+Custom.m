@@ -12,24 +12,6 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-@implementation UIView (Custom)
-
-- (void) drawSimpleShadowToView {
-    UIView *shadowView = [[UIView alloc] initWithFrame: self.bounds];
-    //shadowView.backgroundColor = self.backgroundColor;
-    //shadowView.layer.cornerRadius = self.layer.cornerRadius;
-    
-    shadowView.layer.shadowOffset = CGSizeMake(0, 0);
-    shadowView.layer.shadowColor = [UIColor blackColor].CGColor;
-    shadowView.layer.shadowOpacity = 1.0f;
-    shadowView.layer.shadowRadius = 1;
-    
-    [self insertSubview: shadowView
-                atIndex: 0];
-}
-
-@end
-
 
 @implementation UIView (Border)
 

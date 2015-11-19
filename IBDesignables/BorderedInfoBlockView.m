@@ -9,7 +9,6 @@
 #import "BorderedInfoBlockView.h"
 
 #import "UIView+Custom.h"
-//#import "UIFont+Gotham.h"
 
 @interface BorderedInfoBlockView() {
     dispatch_once_t onceTokenViewLiveRendering;
@@ -73,7 +72,7 @@
         self.titleLabel.text = self.title;
         self.titleLabel.textColor = self.titleColor;
         self.titleLabel.textAlignment = NSTextAlignmentCenter;
-//        self.titleLabel.backgroundColor = [[UIColor blueColor] colorWithAlphaComponent: 0.2];
+        self.titleLabel.backgroundColor = [[UIColor blueColor] colorWithAlphaComponent: 0.2];
 
         frame = self.bounds;
         frame.origin.y = CGRectGetMaxY(self.titleLabel.frame);
@@ -82,7 +81,7 @@
         self.valueLabel.text = self.value;
         self.valueLabel.textColor = self.valueColor;
         self.valueLabel.textAlignment = NSTextAlignmentCenter;
-//        self.valueLabel.backgroundColor = [[UIColor redColor] colorWithAlphaComponent: 0.2];
+        self.valueLabel.backgroundColor = [[UIColor redColor] colorWithAlphaComponent: 0.2];
     });
 }
 
